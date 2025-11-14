@@ -1,0 +1,73 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  user-service:
+    image: userservice:latest
+    build:
+      context: ./UserService          # FIXED: Point to subfolder
+      dockerfile: Dockerfile
+    container_name: user-service
+    restart: unless-stopped
+    ports:
+      - "44394:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - MongoDbSettings__ConnectionString=mongodb://mongodb:27017
+      - MongoDbSettings__DatabaseName=UserDb
+    depends_on:
+      mongodb:
+        condition: service_healthy
+
+  task-service:
+    image: taskservice:latest
+    build:
+      context: ./TaskService          # FIXED: Point to subfolder
+      dockerfile: Dockerfile
+    container_name: task-service
+    restart: unless-stopped
+    ports:
+      - "44304:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - MongoDbSettings__ConnectionString=mongodb://mongodb:27017
+      - MongoDbSettings__DatabaseName=TaskDb
+      - UserService__BaseUrl=http://user-service:8080
+    depends_on:
+      user-service:
+        condition: service_started
+
+  reporting-service:
+    image: reportingservice:latest
+    build:
+      context: ./ReportingService 
+      dockerfile: Dockerfile
+    container_name: reporting-service
+    restart: unless-stopped
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - TaskService__BaseUrl=http://task-service:8080
+    depends_on:
+      task-service:
+        condition: service_started
+
+volumes:
+  mongodb_data:
