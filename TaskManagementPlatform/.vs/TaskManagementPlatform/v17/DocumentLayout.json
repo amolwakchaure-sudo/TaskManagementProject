@@ -1,0 +1,845 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE5FCBA-8487-4976-B739-E0024642CAE0}|UserServiceTests\\UserServiceTests.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservicetests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE5FCBA-8487-4976-B739-E0024642CAE0}|UserServiceTests\\UserServiceTests.csproj|solutionrelative:userservicetests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33527F71-3573-4D38-B3C2-B9410F25454E}|ReportingServiceTests\\ReportingServiceTests.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservicetests\\controllers\\reportscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33527F71-3573-4D38-B3C2-B9410F25454E}|ReportingServiceTests\\ReportingServiceTests.csproj|solutionrelative:reportingservicetests\\controllers\\reportscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE5FCBA-8487-4976-B739-E0024642CAE0}|UserServiceTests\\UserServiceTests.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservicetests\\controllers\\userscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE5FCBA-8487-4976-B739-E0024642CAE0}|UserServiceTests\\UserServiceTests.csproj|solutionrelative:userservicetests\\controllers\\userscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0BED74-519A-4212-9894-C13D2E51DDF9}|TaskServiceTests\\TaskServiceTests.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservicetests\\controllers\\taskscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0BED74-519A-4212-9894-C13D2E51DDF9}|TaskServiceTests\\TaskServiceTests.csproj|solutionrelative:taskservicetests\\controllers\\taskscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\settings\\taskservicesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\settings\\taskservicesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\services\\reportingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\services\\reportingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\services\\ireportingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\services\\ireportingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\models\\reportsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\models\\reportsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\reportingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97780059-FEC9-4A21-A197-2ADC9C37CAA1}|ReportingService\\ReportingService.csproj|solutionrelative:reportingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\services\\uservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\services\\uservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\services\\iuservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\services\\iuservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\models\\updatetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\updatetaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\models\\createtaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\createtaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\data\\userservicesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\data\\userservicesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\taskservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DF53BBA-7DEF-441B-B672-397A026DD463}|TaskService\\TaskService.csproj|solutionrelative:taskservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\models\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|e:\\microservicesassignment\\taskmanagementproject\\taskmanagementplatform\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31025A8-B5EB-4EE9-8023-3D725AF424EF}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserServiceTests\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "UserServiceTests\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserServiceTests\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "UserServiceTests\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:53:03.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportsControllerTests.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingServiceTests\\Controllers\\ReportsControllerTests.cs",
+              "RelativeDocumentMoniker": "ReportingServiceTests\\Controllers\\ReportsControllerTests.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingServiceTests\\Controllers\\ReportsControllerTests.cs",
+              "RelativeToolTip": "ReportingServiceTests\\Controllers\\ReportsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:50:59.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Controllers\\ReportsController.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "ReportingService\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:46:41.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:44:52.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersControllerTests.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserServiceTests\\Controllers\\UsersControllerTests.cs",
+              "RelativeDocumentMoniker": "UserServiceTests\\Controllers\\UsersControllerTests.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserServiceTests\\Controllers\\UsersControllerTests.cs",
+              "RelativeToolTip": "UserServiceTests\\Controllers\\UsersControllerTests.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:43:48.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TasksControllerTests.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskServiceTests\\Controllers\\TasksControllerTests.cs",
+              "RelativeDocumentMoniker": "TaskServiceTests\\Controllers\\TasksControllerTests.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskServiceTests\\Controllers\\TasksControllerTests.cs",
+              "RelativeToolTip": "TaskServiceTests\\Controllers\\TasksControllerTests.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:39:23.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:44:33.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskService\\Controllers\\TasksController.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskService\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:38:52.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.csproj",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-14T05:41:18.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Program.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Program.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Program.cs",
+              "RelativeToolTip": "ReportingService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:43:08.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Dockerfile",
+              "RelativeDocumentMoniker": "TaskService\\Dockerfile",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Dockerfile",
+              "RelativeToolTip": "TaskService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-14T10:48:18.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Dockerfile",
+              "RelativeDocumentMoniker": "ReportingService\\Dockerfile",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Dockerfile",
+              "RelativeToolTip": "ReportingService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-14T10:48:33.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Dockerfile",
+              "RelativeDocumentMoniker": "UserService\\Dockerfile",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Dockerfile",
+              "RelativeToolTip": "UserService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-14T05:51:02.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "ReportingService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:47:15.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskServiceSettings.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Settings\\TaskServiceSettings.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Settings\\TaskServiceSettings.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Settings\\TaskServiceSettings.cs",
+              "RelativeToolTip": "ReportingService\\Settings\\TaskServiceSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:44:24.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReportingService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Services\\ReportingService.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Services\\ReportingService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Services\\ReportingService.cs",
+              "RelativeToolTip": "ReportingService\\Services\\ReportingService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:46:17.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IReportingService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Services\\IReportingService.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Services\\IReportingService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Services\\IReportingService.cs",
+              "RelativeToolTip": "ReportingService\\Services\\IReportingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:45:53.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportSummary.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Models\\ReportSummary.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Models\\ReportSummary.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Models\\ReportSummary.cs",
+              "RelativeToolTip": "ReportingService\\Models\\ReportSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:45:21.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Models\\TaskDto.cs",
+              "RelativeDocumentMoniker": "ReportingService\\Models\\TaskDto.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\Models\\TaskDto.cs",
+              "RelativeToolTip": "ReportingService\\Models\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:44:59.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\appsettings.json",
+              "RelativeDocumentMoniker": "ReportingService\\appsettings.json",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\ReportingService\\appsettings.json",
+              "RelativeToolTip": "ReportingService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T07:43:23.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "TaskService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "TaskService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:57:27.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TaskService\\Services\\ITaskService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\ITaskService.cs",
+              "RelativeToolTip": "TaskService\\Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:56:19.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserValidationService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\UserValidationService.cs",
+              "RelativeDocumentMoniker": "TaskService\\Services\\UserValidationService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\UserValidationService.cs",
+              "RelativeToolTip": "TaskService\\Services\\UserValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:55:54.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserValidationService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\IUserValidationService.cs",
+              "RelativeDocumentMoniker": "TaskService\\Services\\IUserValidationService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\IUserValidationService.cs",
+              "RelativeToolTip": "TaskService\\Services\\IUserValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:55:30.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskService\\Services\\TaskService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Services\\TaskService.cs",
+              "RelativeToolTip": "TaskService\\Services\\TaskService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:04:50.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskService\\Repositories\\TaskRepository.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "TaskService\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvyUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:54:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskService\\Repositories\\ITaskRepository.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "TaskService\\Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:54:23.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateTaskRequest.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\UpdateTaskRequest.cs",
+              "RelativeDocumentMoniker": "TaskService\\Models\\UpdateTaskRequest.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\UpdateTaskRequest.cs",
+              "RelativeToolTip": "TaskService\\Models\\UpdateTaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:11:55.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateTaskRequest.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\CreateTaskRequest.cs",
+              "RelativeDocumentMoniker": "TaskService\\Models\\CreateTaskRequest.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\CreateTaskRequest.cs",
+              "RelativeToolTip": "TaskService\\Models\\CreateTaskRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:11:37.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\TaskDto.cs",
+              "RelativeDocumentMoniker": "TaskService\\Models\\TaskDto.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\TaskDto.cs",
+              "RelativeToolTip": "TaskService\\Models\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:11:19.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskService\\Models\\TaskItem.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Models\\TaskItem.cs",
+              "RelativeToolTip": "TaskService\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:10:59.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Data\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "TaskService\\Data\\MongoDbSettings.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Data\\MongoDbSettings.cs",
+              "RelativeToolTip": "TaskService\\Data\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:53:01.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserServiceSettings.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Data\\UserServiceSettings.cs",
+              "RelativeDocumentMoniker": "TaskService\\Data\\UserServiceSettings.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Data\\UserServiceSettings.cs",
+              "RelativeToolTip": "TaskService\\Data\\UserServiceSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:53:26.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "TaskService\\Data\\MongoDbContext.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "TaskService\\Data\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:53:46.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskService\\appsettings.json",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\appsettings.json",
+              "RelativeToolTip": "TaskService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T06:48:31.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Program.cs",
+              "RelativeDocumentMoniker": "TaskService\\Program.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\TaskService\\Program.cs",
+              "RelativeToolTip": "TaskService\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwDcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:48:42.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\MongoDbContext.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "UserService\\Data\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:41:56.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Data\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\MongoDbSettings.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Data\\MongoDbSettings.cs",
+              "RelativeToolTip": "UserService\\Data\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:41:39.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:38:21.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "UserService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "UserService\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:45:22.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\UserService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Services\\UserService.cs",
+              "RelativeToolTip": "UserService\\Services\\UserService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:44:04.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\IUserService.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Services\\IUserService.cs",
+              "RelativeToolTip": "UserService\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:47:45.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "UserService\\Repositories\\IUserRepository.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "UserService\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:43:10.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserService\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "UserService\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:43:29.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\TokenResponse.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "UserService\\Models\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:41:02.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\LoginModel.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\LoginModel.cs",
+              "RelativeToolTip": "UserService\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:40:37.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserService\\appsettings.json",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\appsettings.json",
+              "RelativeToolTip": "UserService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T05:35:32.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\CreateUserRequest.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\CreateUserRequest.cs",
+              "RelativeToolTip": "UserService\\Models\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:40:12.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\UserDto.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\UserDto.cs",
+              "RelativeToolTip": "UserService\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:39:48.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "E:\\MicroservicesAssignment\\TaskManagementProject\\TaskManagementPlatform\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:39:12.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
