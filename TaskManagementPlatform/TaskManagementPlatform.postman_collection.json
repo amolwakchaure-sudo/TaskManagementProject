@@ -1,0 +1,244 @@
+{
+  "info": {
+    "name": "TaskManagementPlatform",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "task-management-platform"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "UserService",
+      "item": [
+        {
+          "name": "Login (Get Token)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const json = pm.response.json();",
+                  "    pm.collectionVariables.set('token', json.token);",
+                  "    console.log('Token saved:', json.token);",
+                  "} else {",
+                  "    console.log('Login failed');",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"username\": \"admin\",\n    \"password\": \"admin\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}:44394/auth/login",
+              "host": ["{{baseUrl}}"],
+              "port": "44394",
+              "path": ["auth", "login"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "TaskService",
+      "item": [
+        {
+          "name": "Create Task",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"title\": \"Fix Docker Issue\",\n    \"description\": \"Resolve container build error\",\n    \"assignedTo\": \"user1\",\n    \"priority\": \"High\",\n    \"dueDate\": \"2025-12-01T18:00:00Z\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}:44304/tasks",
+              "host": ["{{baseUrl}}"],
+              "port": "44304",
+              "path": ["tasks"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Tasks",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}:44304/tasks",
+              "host": ["{{baseUrl}}"],
+              "port": "44304",
+              "path": ["tasks"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Task by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}:44304/tasks/66f1a2b3c4d5e6f7g8h9i0j1",
+              "host": ["{{baseUrl}}"],
+              "port": "44304",
+              "path": ["tasks", "66f1a2b3c4d5e6f7g8h9i0j1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Task",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": \"66f1a2b3c4d5e6f7g8h9i0j1\",\n    \"title\": \"Fixed Docker\",\n    \"status\": \"Completed\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}:44304/tasks/66f1a2b3c4d5e6f7g8h9i0j1",
+              "host": ["{{baseUrl}}"],
+              "port": "44304",
+              "path": ["tasks", "66f1a2b3c4d5e6f7g8h9i0j1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Task (Admin Only)",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}:44304/tasks/66f1a2b3c4d5e6f7g8h9i0j1",
+              "host": ["{{baseUrl}}"],
+              "port": "44304",
+              "path": ["tasks", "66f1a2b3c4d5e6f7g8h9i0j1"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "ReportingService",
+      "item": [
+        {
+          "name": "Get Summary Report",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}:5001/reports/summary",
+              "host": ["{{baseUrl}}"],
+              "port": "5001",
+              "path": ["reports", "summary"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get SLA Breaches",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}:5001/reports/sla-breaches",
+              "host": ["{{baseUrl}}"],
+              "port": "5001",
+              "path": ["reports", "sla-breaches"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Tasks by User",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}:5001/reports/user/user1",
+              "host": ["{{baseUrl}}"],
+              "port": "5001",
+              "path": ["reports", "user", "user1"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
